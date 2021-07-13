@@ -8,3 +8,4 @@ Para a leitura dos dados das tabelas dinâmicas foi necessário criar uma versã
   - Com os arquivos desempacotados é usado no python xml.etree.ElementTree para leitura dos dados gerando um arquivo dml.sql localizado em: ~/airflow/dags/stage_files/dml.sql onde faz o merge dos dados. Existe a possibilidade de melhoria para uma carga incremental.
   - Por fim o airflow utiliza da suas connections para fazer a carga  
 
+
